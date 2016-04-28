@@ -8,7 +8,7 @@ tags: [canvas,百分比]
 一个简单的用canvas画的可自定义颜色和起止位置的动画百分比
 
 <b class="clickme" style="cursor: pointer;vertical-align: top;color: blue;">-->先看效果<--</b><canvas width="190" height="170" class="aaa"></canvas><canvas width="190" height="170" class="bbb"></canvas><canvas width="190" height="170" class="ccc"></canvas>
-<script src="../../../../js/jquery.js"></script>
+<script src="/vendors/jquery/index.js"></script>
 <script>
     
   // call function
