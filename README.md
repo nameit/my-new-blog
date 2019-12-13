@@ -20,7 +20,7 @@ clone下来后，
 
 > 如果没有全局安装hexo，可以这样引用： ./node_modules/hexo/bin/hexo
 
-## 起服务
+## 起服务及部署
 
 generate后就可以通过
 
@@ -29,6 +29,9 @@ generate后就可以通过
  本地浏览了（有时4000端口占用可以通过-p加端口的形式另起一个端口）
 
 具体写作参见[官网](https://hexo.io/zh-cn/docs/writing)
+
+部署：
+```./node_modules/hexo/bin/hexo d -g```
 
 ## 遇到的问题
 
