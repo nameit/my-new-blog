@@ -1,5 +1,6 @@
 title: windows下的git bash中添加tree
 tags: [git]
+categories: 前端
 ---
 
 # 下载tree

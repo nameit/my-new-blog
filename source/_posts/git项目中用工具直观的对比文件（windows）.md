@@ -1,5 +1,6 @@
 title: git项目中用工具直观的对比文件（windows）
 tags: git
+categories: 前端
 ---
 
 ## 缘由

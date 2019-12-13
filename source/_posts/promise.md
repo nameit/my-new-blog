@@ -1,5 +1,6 @@
 title: promise
 tags: [promise,js]
+categories: 前端
 ---
 
 
