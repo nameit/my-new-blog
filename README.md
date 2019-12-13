@@ -12,7 +12,7 @@ clone下来后，
 
 一般来说hexo server就能在本地预览了。
 
-但之前下载了next主题，所以需要在github自己的fork里下载hexo-theme-next主题。进到自己项目目录下  
+但之前下载了next主题，所以需要在github自己的fork里下载hexo-theme-next主题。进到自己项目theme目录下  
 
 ```git clone git@github.com:nameit/hexo-theme-next.git themes/next。```
 
