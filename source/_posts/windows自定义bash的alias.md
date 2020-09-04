@@ -1,5 +1,6 @@
 title: windows自定义bash的alias
 tags: [bash,git]
+categories: 前端
 ---
 
 ### 缘由
