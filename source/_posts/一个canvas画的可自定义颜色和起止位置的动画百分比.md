@@ -10,7 +10,7 @@ tags: [canvas,百分比]
 <b class="clickme" style="cursor: pointer;vertical-align: top;color: blue;">-->先看效果<--</b><canvas width="190" height="170" class="aaa"></canvas><canvas width="190" height="170" class="bbb"></canvas><canvas width="190" height="170" class="ccc"></canvas>
 <script src="/vendors/jquery/index.js"></script>
 <script>
-    
+
   // call function
     $('.clickme').click(function(){
         function PercentageAnimation(element, options) {
@@ -54,7 +54,7 @@ PercentageAnimation.prototype = {
         cxt.lineCap = this.options.shape;
         cxt.arc(this.cWidth / 2, this.cHeight / 2, this.options.radius, this.options.coverStartDegree * Math.PI / 180, arcEndStaff - (actureDegree - this.options.roundEndDegree) * Math.PI / 180, false);
         cxt.stroke();
-
+    
         // draw text
         cxt.fillStyle = this.options.coverColor;
         cxt.font = this.options.numberFont;
@@ -64,12 +64,12 @@ PercentageAnimation.prototype = {
         cxt.font = this.options.subFont;
         cxt.fillStyle = '#ccc';
         cxt.fillText(this.options.subtitle, this.cWidth / 2 + textWidth / 2, this.cHeight / 2 + 20);
-
+    
     },
     // draw basic round
     drawCanvasRound: function(cxt, color, sAngle, eAngle) {
         cxt.clearRect(0, 0, this.cWidth, this.cHeight);
-
+    
         cxt.beginPath();
         cxt.strokeStyle = color;
         cxt.lineWidth = this.options.lineWidth;
